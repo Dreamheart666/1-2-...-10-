@@ -1,0 +1,19 @@
+define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
+int main()
+{
+	int i = 1;
+	int s = 1;
+	int n = 0;
+	int sum = 0;
+	while (i <= 10)
+	{
+		s = s*i;
+		i++;
+		sum = sum + s;
+
+	}
+	printf("sum=%d\n", sum);
+   
+	return 0;
+}
